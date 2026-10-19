@@ -21,6 +21,13 @@ A 3D computer graphics application built in C++ using OpenGL and the GLUT utilit
 ---
 
  How to Build & Run
+-Firsly download the txt file 
+### On MacOS:
+ mv 3Dpyramid.txt main.cpp
+
+ g++ src/main.cpp -o pyramid -framework OpenGL -framework GLUT
+
+ ./pyramid
 
 ### On Linux (Ubuntu/Debian):
 ```bash
